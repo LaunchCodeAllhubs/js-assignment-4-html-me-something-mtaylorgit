@@ -1,1 +1,53 @@
-/* Write your CSS here! */
+
+/* Elements */
+body {
+    background-color: lightcyan;
+    /* Google fonts */
+    font-size: 12pt;
+    color: #333;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    /* no classes or ids just referring to elements themselves */
+    background-color: rgb(167, 197, 197);
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+
+main {
+    width: 100vw;
+    padding: 30px 100px; /*all content away from edges */
+    box-sizing: border-box; /* this makes sure that all the content follows padding settings on left and right. browser has settings. if you take this off, the stuff goes off the page on the right. "take width of whole thing and subtract the padding, and that's the amount of width that you have*/
+}
+
+footer {
+    color:rgb(42, 46, 46); /* text here will inherit this color*/
+    background-color: aliceblue;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+}
+img {
+    width: 600px;
+    margin: 10px 0px;
+}
+/* Ids */
+
+
+
+/* Classes */
