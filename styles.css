@@ -2,7 +2,6 @@
 /* Elements */
 body {
     background-color: lightcyan;
-    /* Google fonts */
     font-size: 12pt;
     display: block;
     color: #333;
@@ -15,7 +14,7 @@ body {
 }
 
 header {
-    /* no classes or ids just referring to elements themselves */
+
     background-color: rgb(167, 197, 197);
     height: auto;
     padding: 20px;
@@ -68,7 +67,7 @@ a:hover {
 /* Ids */
 #mainHeading {
     text-align: center;
-    color: red;
+    color: rgb(107, 104, 104);
 }
 #tag-line {
     text-align: center;
@@ -92,7 +91,4 @@ a:hover {
 .bordered {
     border: 4px solid aquamarine;
     padding: 0px;
-  }
-  .funParagraph {
-    color: green;
   }
