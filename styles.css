@@ -4,10 +4,11 @@ body {
     background-color: lightcyan;
     /* Google fonts */
     font-size: 12pt;
+    display: block;
     color: #333;
     width: 100vw;
     height: 100vh;
-    margin: 0px;
+    margin: 8px;
     padding: 0px;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
@@ -65,8 +66,9 @@ a:hover {
 
 
 /* Ids */
-#page-title {
+#mainHeading {
     text-align: center;
+    color: red;
 }
 #tag-line {
     text-align: center;
@@ -87,4 +89,7 @@ a:hover {
 .bordered {
     border: 4px solid aquamarine;
     padding: 0px;
+  }
+  .funParagraph {
+    color: green;
   }
